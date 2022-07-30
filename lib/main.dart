@@ -1,8 +1,8 @@
-// ignore_for_file: prefer_const_constructors
-
+import 'package:catalog_app/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  // ignore: prefer_const_constructors
   runApp(MyApp());
 }
 
@@ -13,9 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Material(
-        child: Center(child: Text('30 days of flutter')),
-      ),
+      home: HomePage(),
     );
   }
 }
